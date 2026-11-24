@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google tag (gtag.js) - Google Ads AW-17659713729 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17659713729"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','AW-17659713729');
+</script>
+<title>Page Not Found | Maryland Fur Babies</title>
+<meta name="description" content="This page could not be found.">
+<link rel="canonical" href="https://marylandfurbabies.org/404.html">
+<meta name="theme-color" content="#a51c30">
+<link rel="icon" href="assets/maryland-fur-babies-logo.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Maryland Fur Babies">
+<meta property="og:title" content="Page Not Found | Maryland Fur Babies">
+<meta property="og:description" content="This page could not be found.">
+<meta property="og:url" content="https://marylandfurbabies.org/404.html">
+<meta property="og:image" content="https://marylandfurbabies.org/assets/photos/colony.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NGO","name":"Maryland Fur Babies","alternateName":"Maryland Fur Babies Inc","url":"https://marylandfurbabies.org/","logo":"https://marylandfurbabies.org/assets/maryland-fur-babies-logo.webp","email":"dustin@marylandfurbabies.org","taxID":"83-4101673","nonprofitStatus":"Nonprofit501c3","foundingDate":"2019","address":{"@type":"PostalAddress","addressLocality":"Baltimore","addressRegion":"MD","addressCountry":"US"},"areaServed":{"@type":"State","name":"Maryland"},"sameAs":["https://www.tiktok.com/@marylandfurbabies","https://www.facebook.com/profile.php?id=61576079746308","https://app.candid.org/profile/9790874/maryland-fur-babies-83-4101673"],"potentialAction":{"@type":"DonateAction","target":"https://www.paypal.com/donate?hosted_button_id=3FETC7FMJ2J9Y"}}</script>
+<base href="/">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="stripe"></div>
+<header><div class="wrap head"><a href="/"><img class="logo" alt="Maryland Fur Babies home" src="assets/maryland-fur-babies-logo.webp" width="720" height="562"></a><nav class="nav" aria-label="Main"><a href="animals.html">The animals</a><a href="about.html">About</a><a href="help.html">How to Help</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a><a class="donate-top" href="donate.html">Donate</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="wrap"><div class="crumbs"><a href="/">Home</a> / Not found</div><div class="eyebrow">Page not found</div><h1>Sorry, that page wandered off.</h1><p class="section-intro">The page you were looking for is not here. Try one of these instead.</p></div></section><section class="white"><div class="wrap"><p><a class="btn primary" href="/">Home</a> <a class="btn secondary" href="animals.html">The animals</a> <a class="btn secondary" href="donate.html">Donate</a> <a class="btn secondary" href="contact.html">Contact</a></p></div></section>
+</main>
+<footer><div class="wrap"><div class="foot"><div><h3>Maryland Fur Babies</h3><p>A small, family run, grass roots 501(c)(3) animal rescue based in Maryland with nationwide reach. We feed, treat and protect stray, abandoned and neglected animals.</p><p>Baltimore, Maryland · <a href="mailto:dustin@marylandfurbabies.org">dustin@marylandfurbabies.org</a></p></div><div><h3 style="font-size:20px">Explore</h3><div class="foot-links"><a href="/">Home</a><a href="animals.html">The animals</a><a href="about.html">About us</a><a href="help.html">How to help</a><a href="resources.html">Pet resources</a><a href="contact.html">Contact</a><a href="press.html">Press kit</a></div></div><div><h3 style="font-size:20px">Support</h3><div class="foot-links"><a href="donate.html">Donate</a><a href="https://www.tiktok.com/@marylandfurbabies" target="_blank" rel="noopener">TikTok</a><a href="https://www.facebook.com/profile.php?id=61576079746308" target="_blank" rel="noopener">Facebook</a><a href="https://app.candid.org/profile/9790874/maryland-fur-babies-83-4101673" target="_blank" rel="noopener">Candid Platinum 2026 · Verify our 501(c)(3)</a><span>EIN 83-4101673</span></div></div></div><div class="small">© 2026 Maryland Fur Babies Inc. All rights reserved. IRS-recognized 501(c)(3) public charity, EIN 83-4101673. Contributions are tax-deductible as allowed by law.</div></div></footer>
+<script>
+/* Maryland Fur Babies - report PayPal donate clicks to Google Ads */
+(function(){
+  var SEND_TO='AW-17659713729/ik_ICPTHg40dEMGx5-RB';
+  var ONE_TIME_DEFAULT=25;   /* assumed average one-time gift */
+  var MONTHLY_VALUE=100;     /* assumed first-year worth of a monthly donor */
+  function report(value){
+    if(typeof gtag!=='function')return;
+    gtag('event','conversion',{'send_to':SEND_TO,'value':value,'currency':'USD'});
+  }
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    var a=(t&&t.closest)?t.closest('a[href*="paypal.com/donate"]'):null;
+    if(!a)return;
+    var m=/[?&]amount=(\d+(?:\.\d+)?)/.exec(a.getAttribute('href')||'');
+    report(m?parseFloat(m[1]):ONE_TIME_DEFAULT);
+  },true);
+  document.addEventListener('submit',function(e){
+    var f=e.target;
+    if(!f||!f.action||f.action.indexOf('paypal.com/donate')===-1)return;
+    var txt=(f.textContent||'').toLowerCase();
+    report(txt.indexOf('monthly')!==-1?MONTHLY_VALUE:ONE_TIME_DEFAULT);
+  },true);
+})();
+</script>
+</body>
+</html>
